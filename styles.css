@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(
+      #b3e6ff,
+      #b3e6ff 60%,
+      green 60%
+    );
+}
+
 #house {
   flex: 0 0 auto;
   position: relative;
@@ -15,12 +29,12 @@
   top: 0;
   width: 500px;
   height: 100px;
-  background-color: blue;
+  background-color: orange;
   border: 1px solid black;
 }
 
 #chimney {
-  top: -20px;
+  top: -80px;
   right: 20px;
   width: 40px;
   height: 80px;
@@ -34,7 +48,7 @@
   right: 50px;
   width: 125px;
   height: 110px;
-  background-color: black;
+  background-color: white;
   border: 1px solid black;
 }
 
